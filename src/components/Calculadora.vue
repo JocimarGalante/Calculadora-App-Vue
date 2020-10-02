@@ -1,5 +1,5 @@
 <template>
-  <div class="calculator card">
+  <div class="calculator card col col-sm col-md">
     <div class="calculator-screen z-depth-1">{{valorCorrente || '0'}}</div>
     <div class="calculator-keys">
 
@@ -120,10 +120,11 @@ export default {
     .calculator {
       border: 1px solid #ccc;
       border-radius: 5px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
+      /* position: absolute; */
+      margin: 0 auto;
+      /* top: 50%;
+      left: 50%; */
+      /* transform: translate(-50%, -50%); */
       width: 400px;
     }
 
