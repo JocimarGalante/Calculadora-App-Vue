@@ -28,6 +28,10 @@ export default {
   data(){
     return{
       valorCorrente: '',
+      valorSoma: '+',
+      valorDiminui: '-',
+      valorMultiplicar: 'x',
+      valorDividir: '÷', 
       numeroAnterior: null,
       operador: null,
       operadorClicado: false,
@@ -109,6 +113,7 @@ export default {
 .botao{
   background-color: #f2f2f2;
   border: 1px solid #999;
+  cursor: pointer;
 }
 .operadores{
   background-color: orange;
